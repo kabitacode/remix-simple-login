@@ -50,7 +50,7 @@ export default function Index() {
             onError={onErrorLogin}
           />
 
-          <p className="font-normal text-sm break-words max-w-full">{response?.credential}</p>
+          <p className="font-normal text-sm text-black break-words max-w-full">{response?.credential}</p>
         </div>
       </div>
     </div>
